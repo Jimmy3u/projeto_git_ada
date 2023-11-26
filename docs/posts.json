@@ -1,0 +1,9 @@
+[
+    {
+        "titulo" : "Comandos Basicos do git",
+        "slug" : "git_basico",
+        "autor" : "Zé do Picadinho",
+        "data" : "26/11/2023",
+        "content" : "git_comandos.md"
+    }
+]

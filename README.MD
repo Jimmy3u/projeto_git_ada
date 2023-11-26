@@ -4,7 +4,8 @@ Estrutura arquivo de Posts Json:
 ~~~json
     {
         "titulo" : "<Titulo Do Post>",
-        "ator" : "<Nome>",
+        "slug": "<slug do post>",
+        "autor" : "<Nome>",
         "data" : "<data>",
         "content" : "<O Arquivo do Post em markdown>" 
     }
