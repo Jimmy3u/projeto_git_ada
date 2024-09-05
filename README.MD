@@ -12,4 +12,11 @@ Estrutura arquivo de Posts Json:
     }
 ~~~
 Os arquivos em markdown utilizados para gerar os conteudos ficam localizados na pasta `docs/posts`, porem o script pode ser alterado facilmente para utilizar o esquema que mais lhe agradar. 
+
 Tambem é utilizado o Jinja para criação de templates simples e com possibilidade de alteração no futuro.
+
+Para executalo basta instalar os pacotes localizado no ``requirements.txt`` utilizando sua ferramenta favorita e executar o script com
+
+~~~shell
+python3 pageMaker3000.py 
+~~~

@@ -1,22 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog do bloguinho</title>
-    <link rel="stylesheet" href="media/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+        body {
+            margin: auto;
+            background-color: antiquewhite;
+            font-family: 'Comic Neue', cursive;
+            font-size: 1.1rem;
+        }
+
+        .blog-posts li {
+            margin: 0;
+            padding: 22px 0 22px 34px;
+            list-style: none;
+            background-image: url("https://media.tenor.com/nUz_X_n6TcUAAAAi/kirbshake-dance.gif");
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 24px;
+        }
+
+        .main-container {
+            width: 65%;
+            margin: auto;
+            padding: 2rem;
+        }
+
+        .small-italic {
+            font-size: 0.9rem;
+            font-style: italic;
+            margin: 0;
+        }
+    </style>
 </head>
+
 <body>
     <section class="main-container">
         <nav>
-            <a href="">Home</a> | <a href="posts">Posts</a> | <a href="http://pudim.com.br">pudim</a>
+            <a href="../">Home</a> | <a href="../posts">Posts</a> | <a href="http://pudim.com.br">pudim</a>
         </nav>
-        <center>
-            <img width="20%" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmpqdzdhd25pNHd4bmliZ2IwdndlOGdnb3Z3dWc4NTJscWg5eTczaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ySwtjCu4FK76jawkCI/giphy.gif">
-        <br>Sejam bem vindos ao site, as coisas aqui ainda estão meio capengas mas estamos(no caso eu sou só um mesmo) trabalhando duro para melhorar e trazer conteudos que irão enriquecer a todos que frequentarem esse belissimo site.
-        <br>Muito obrigado pela compreensão e tenha um otimo dia !
-        </center>
+        <ul class="blog-posts">
+            <li><a href="posts/git_basico.html">Comandos Basicos do git</a>
+                <p class="small-italic">Postado por Zé do Picadinho</p>
+            </li><li><a href="posts/first.html">Primeiro post</a>
+                <p class="small-italic">Postado por Zé do Picadinho</p>
+            </li>
+        </ul>
     </section>
-  
 </body>
+
 </html>
